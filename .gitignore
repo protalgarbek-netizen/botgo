@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Окружение / секреты
+.env
+.env.local
+*.local
+
+# Данные пользователей и SQLite
+data/users/*
+!data/users/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
